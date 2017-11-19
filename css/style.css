@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Papyrus", "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: orange;
+  background-color:black;
+  background-size: 1400px;
+}
+
+
+header {
+  background-size: cover;
+  height: 100px;
+  background-image: url("../css/bGCubs.jpg");
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  padding:3px;
+  margin: 3px;
+}
+
+h3 {
+  font-size: 20px;
+  padding:3px;
+  margin: 3px;
+}
+
+p {
+  padding: 5px;
+  margin:5px;
+  }
+
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#bio-image {
+  background-color: #5b4f36;
+  float: left;
+}
+
+#main-bio {
+  width: 60%;
+  margin: 10px;
+  padding: 3px;
+}
+
+#links {
+  width: 25%;
+  background-color: #5b4f36;
+  margin: 20px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  float: left;
+}
+
+#bio-image {
+    width: 250px;
+    height: 250px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#wWF,
+#wiki,
+#yT {
+  text-align: center;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+
+.videoPlayer {S
+  margin: 3px;
+  padding: 2px;
+}

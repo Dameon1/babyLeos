@@ -100,7 +100,11 @@ a:hover {
 }
 
 
-.videoPlayer {S
+.videoPlayer {
   margin: 3px;
   padding: 2px;
+}
+
+#copyright {
+  color:white;
 }
